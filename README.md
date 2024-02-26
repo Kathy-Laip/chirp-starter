@@ -1,4 +1,5 @@
-#Chirp landing
+Chirp landing
+
 Design for this project was taked from this link: https://www.codewell.cc/challenges/chirp-landing-page--60fc1e36a383e41090a3c71c
 
 This project is aimed at learning adaptive design and ts+react for building pages/project.
