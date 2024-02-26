@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pdMain{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.ml1{
+  margin-left: -1.5rem;
+}
+
+h1{
+ font-weight: 600;
+ font-size: 4.5rem; 
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h3{
+  font-weight: 800;
+  font-size: 1.3rem;
+
+  margin: 1rem 0;
+}
+
+span{
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.spec{
+  display: inline;
+
+  font-weight: 600;
+}
+
+.mainView{
+  display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  background-color: #fff8e1;
+
+  width: 100%;
+}
+
+.header{
+  display: flex;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin: 2rem 0;
+}
+
+.logo{
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5rem;
+
+  margin: auto 0;
+}
+
+.navLink span, 
+.textMain button span{
+  margin-right: 2rem;
+}
+
+.header button, 
+.textMain button{
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 0;
+}
+
+.header button img,
+.textMain button img{
+  margin-left: 1.5rem;
+  margin-bottom: -0.2rem;
+}
+
+.header button span,
+.textMain button span{
+  color: white;
+  margin-left: 1.3rem;
+  font-weight: 700;
+}
+
+.textMainBody{
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin-bottom: 5rem;
+
+  justify-content: space-between;
+}
+
+.textMain{
+  width: 55%;
+  margin: auto 0;
+}
+
+.block{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block span{
+  margin: auto 1rem;
+}
+
+.picMain{
+  width: 35%;
+}
+
+.picMain img{
+  width: 100%;
+}
+
+.blockFeatures{
+  margin: 5rem 0
+}
+
+.blockComment{
+  display: flex;
+  
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  width: 100%;
+}
+
+.comment{
+  width: 48%;
+  padding: 1rem 1rem;
+
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.picCom{
+  font-size: 2rem;
+}
+
+.mainСustomers{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.bodyCustom{
+  margin: 2rem 0;
+}
+
+.blocksCustom{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.blockCustom{
+  border-radius: 5px;
+}
+
+
