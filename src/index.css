@@ -64,12 +64,28 @@ span{
 }
 
 .header{
+  margin: 2rem 0;
+}
+
+.footer,
+.header{
   display: flex;
 
   justify-content: space-between;
   flex-wrap: wrap;
+}
 
-  margin: 2rem 0;
+.footer{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer span{
+  color: black;
+}
+
+.footer span img{
+  vertical-align:middle;
 }
 
 .logo{
@@ -81,25 +97,29 @@ span{
 }
 
 .navLink span, 
-.textMain button span{
+.textMain button span,
+.priceCard button span{
   margin-right: 2rem;
 }
 
 .header button, 
-.textMain button{
+.textMain button,
+.priceCard button{
   border: none;
   border-radius: 6px;
   padding: 1rem 0;
 }
 
 .header button img,
-.textMain button img{
+.textMain button img,
+.priceCard button img{
   margin-left: 1.5rem;
   margin-bottom: -0.2rem;
 }
 
 .header button span,
-.textMain button span{
+.textMain button span,
+.priceCard button span{
   color: white;
   margin-left: 1.3rem;
   font-weight: 700;
@@ -166,20 +186,119 @@ span{
 .mainСustomers{
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .bodyCustom{
-  margin: 2rem 0;
+  margin: 5rem 0;
+  width: 100%;
+}
+
+.bodyCustom h2{
+  margin-top: 0;
 }
 
 .blocksCustom{
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:100%;
 }
 
 .blockCustom{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
   border-radius: 5px;
+
+  background-color: white;
+
+  width:28%;
+  height: auto;
+
+  padding: 1.3rem 1.5rem;
+}
+
+.infoPerson{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mainInfo{
+  width: 80%;
+  display: flex;
+}
+
+.mainInfo img{
+  margin-right: 1rem;
+}
+
+.nameNick{
+  display: block;
+}
+
+.nameNick h3{
+  margin: 0.2rem 0;
 }
 
 
+.birdBlock img{
+  margin: 50% 0;
+}
+
+.blockCommentText{
+  margin: 1.5rem 0;
+  text-align: start;
+  width: 90%;
+}
+
+.dateComment{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.countHeart img{
+  vertical-align:sub;
+  margin-right: 0.4rem;
+}
+
+.priceBody{
+  margin: 3rem 0;
+}
+
+.priceList{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+
+  width:40%;
+  margin: 0 auto;
+}
+
+.priceCard{
+  margin: 3rem 0;
+
+  border: 1px solid orange;
+  border-radius: 5px;
+
+  text-align: start;
+  padding: 2rem 2rem;
+}
+
+.priceCard h1{
+  margin: 0.5rem 0;
+}
+
+.priceCard ul li{
+  list-style-image: url('./Assets/Checkmark.svg');
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+
+.priceCard button {
+  width: 100%;
+}
