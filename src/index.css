@@ -157,6 +157,7 @@ span{
   width: 100%;
 }
 
+
 .blockFeatures{
   margin: 5rem 0
 }
@@ -301,4 +302,68 @@ span{
 
 .priceCard button {
   width: 100%;
+}
+
+.hamMenu{
+  display: none;
+  position: relative;
+}
+
+#hamMenuBlock{
+  display: none;
+
+  position: absolute;
+  top: 1rem;
+  right: 10%;
+
+  width: 20rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  margin-top: 1rem;
+  
+  border-radius: 10px;
+
+  background-color: white;
+}
+
+#hamMenuBlock span{
+  display: block;
+  text-align: end;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+@media (max-width: 1000px) {
+  .textMain,
+  .picMain,
+  .block button,
+  .comment,
+  .blockCustom,
+  .priceList{
+    width: 100%;
+  }
+
+  .block span{
+    margin: 1rem auto;
+  }
+  
+  .picMain{
+    margin-top: 5rem;
+  }
+
+  .blockCustom{
+    margin: 1rem 0;
+  }
+
+  .hamMenu{
+    display: block;
+  }
+
+  .navLink{
+    display: none;
+  }
 }
